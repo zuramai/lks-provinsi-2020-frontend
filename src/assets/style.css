@@ -1,0 +1,226 @@
+*{
+  box-sizing: border-box;
+}
+body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAF7;
+    color: #1A1B1B;
+  }
+  
+  .container {
+    padding: 1em;
+    margin: 0 auto;
+  }
+  
+  .header{
+      height: 70px;
+      position: relative;
+      background: #A1B4A7;
+      display: flex;
+      align-items: center;
+      padding: 0 1em;
+      color: #ffe;
+      font-weight: bold;
+  }
+  
+  .header a, .header a:visited, .header a:link {
+    text-decoration: none;
+    color: #ffe;
+    cursor: inherit;
+  }
+  
+  .header a:hover{
+      color: #aee7e8;
+    cursor: pointer;
+  }
+  
+  .header div.right{
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  }
+  
+  .header div a{
+      margin: 0 0.3em;
+  }
+  
+  .buku {
+    color: #FAFAF7;
+  }
+  
+  .bagus {
+    color: #484E4D;
+    font-weight: bold;
+  }
+  
+  .form {
+      display: flex;
+      margin: 1em;
+      flex-flow: column;
+  }
+  
+  .form input {
+      display: flex;
+  }
+  
+  .form header{
+      display: block;
+      font-weight: bold;
+      font-size: 1.5em;
+  }
+
+  .table-responsive table {
+    width: 100%;
+  }
+  
+  .books table th{
+    text-align: left;
+    background-color: #ededed;
+    border: 1px solid #eee;
+  }
+  
+  .books table{
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  .books table td, table th{
+    text-align: left;
+    padding: 0.75em;
+  }
+  
+  .books table td {
+    border: 1px solid #dedede;
+    padding: 1em;
+  }
+  
+  .book-title{
+    font-weight: bold;
+  }
+  
+  .review{
+    margin-top: 1em;
+  }
+  
+  .review-container{
+    width: 50%;
+  }
+
+.card {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px #ddd;
+}
+
+.btn {
+  padding: 10px 15px;
+  background-color: #287ab7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.btn-sky {
+  padding: 10px 15px;
+  background-color:skyblue;
+  color: #000;
+  text-decoration: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+  border:none
+}
+button.btn, input.btn {
+  border:none;
+
+}
+.float-right {
+  float: right;
+  margin-bottom: 20px;
+}
+.container.auth {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.form {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px #dedede;
+}
+.form-control {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.mt-20 {
+  margin-top: 40px;
+}
+.alert {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #ff4500;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.container.detail {
+  width: 50%;
+}
+.container.detail .book-title h3{
+  margin-bottom: 0;
+}
+.container.detail .book-title {
+  font-size: 24px;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+.book-author {
+  font-size: 14px;
+}
+.book-rating {
+  margin-top: 40px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  background-color:#fff
+}
+.reviewer-name {
+  width: 100%;
+  font-weight: bold;
+}
+.review-container {
+  width: 100%;
+}
+.per-review {
+  background-color: #fff;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 2px 2px 10px #ddd;
+  margin-bottom: 15px;
+}
+.addreview {
+  margin-top: 40px;
+}
+.alert-success {
+  background-color: green;
+  padding: 10px;
+  color: #fff;
+  border-radius: 3px;
+}
+.table-bordered{
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.table-bordered tr td {
+  border: 1px solid #ccc;
+  padding: 10px
+}
